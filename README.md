@@ -26,11 +26,16 @@ Bu proje, C# WinForms kullanılarak geliştirilmiş modern bir FlappyBird oyunud
 - .NET 8.0 SDK
 - Windows işletim sistemi
 
-### Kurulum
+### Yöntem 1: GitHub Codespaces (Önerilen)
+1. Bu repository'yi fork edin
+2. **Code** → **Codespaces** → **Create codespace**
+3. Terminal'de: `dotnet run`
+
+### Yöntem 2: Yerel Kurulum
 ```bash
 # Projeyi klonlayın
-git clone https://github.com/kullaniciadi/flappybird-csharp.git
-cd flappybird-csharp
+git clone https://github.com/CDenizSahin/flappybird-charp.git
+cd flappybird-charp
 
 # Projeyi derleyin
 dotnet build
@@ -38,6 +43,11 @@ dotnet build
 # Oyunu çalıştırın
 dotnet run
 ```
+
+### Yöntem 3: Visual Studio
+1. **File** → **Open** → **Project/Solution**
+2. `FlappyBirdGame.csproj` dosyasını açın
+3. **F5** tuşuna basın
 
 ## 🛠️ Teknik Detaylar
 
